@@ -1,0 +1,55 @@
+.title {
+  text-align: left;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  word-break: break-all;
+
+  transition: all 500ms;
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  p:nth-child(1) {
+    margin-top: 0px;
+  }
+
+  .socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    a:hover:after {
+      background-color: transparent;
+    }
+
+    a > div {
+      width: 60px;
+      height: 60px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      opacity: 0.7;
+      transition: all 500ms;
+    }
+
+    a > div:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  .socialMedia:hover > a > div:hover {
+    transform: translateY(-10px);
+  }
+}

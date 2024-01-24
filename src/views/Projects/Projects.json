@@ -1,0 +1,129 @@
+[
+  {
+    "project": "fcee",
+    "name": "FCEE",
+    "desc": "Backend para um sistema de solicitações processos.",
+    "thumb": "FceeThumb.png",
+    "fullDesc": "Desenvolvi o <b>backend</b> desse projeto solicitado pela <b>Fundação Catarinense de Educação Especial.</b> O Layout foi idealizado a comunicação visual já existente dentro das outras plataformas/sites da FCEE, e o frontend foi desenvolvido por um parceiro. A aplicação consiste em um sistema de solicitação de serviços junto a administração e setores dentro da instituição. <p>O objetivo desse sistema é informatizar/agilizar os processos de solicitações dentro da instituição, tendo como diferencial a geração de relatórios sobre as solicitações realizadas. O sistema conta com 9 papéis + administrador global - cada um com suas peculiaridades na forma de visualizar e utilizar a plataforma.</p>",
+    "images": [
+      {
+        "src": "fcee/0001.jpg",
+        "desc": "Tela de Login"
+      },
+      {
+        "src": "fcee/0002.jpg",
+        "desc": "Visão de administrador do Sistema"
+      },
+      {
+        "src": "fcee/0003.jpg",
+        "desc": "Visão de administrador do Sistema - Tela de gerenciamento de usuários"
+      },
+      {
+        "src": "fcee/0004.jpg",
+        "desc": "Visão de administrador do Sistema - Tela de importar usuários"
+      },
+      {
+        "src": "fcee/0005.jpg",
+        "desc": "Visão de administrador do Sistema - Tela de Relatórios de Solicitações"
+      },
+      {
+        "src": "fcee/0006.jpg",
+        "desc": "Visão de funcionário comum - 9 tipos de solicitações possíveis"
+      },
+      {
+        "src": "fcee/0007.jpg",
+        "desc": "Visão de funcionário comum - Tela Minhas Solicitações"
+      },
+      {
+        "src": "fcee/0008.jpg",
+        "desc": "Visão de funcionário comum - Tela Solicitação de Material de Consumo"
+      },
+      {
+        "src": "fcee/0009.jpg",
+        "desc": "Visão de responsável pelos Materiais de Consumo - Solicitações Pendentes"
+      },
+      {
+        "src": "fcee/0010.jpg",
+        "desc": "Visão de responsável pelos Materiais de Consumo - Gerenciar Materiais Disponíveis"
+      }
+    ],
+    "preview": {
+      "link": "https://youtu.be/EjN8liNvCjI",
+      "notAvailable": ""
+    },
+    "github": [
+      {
+        "link": "",
+        "notAvailable": "Não disponível",
+        "label": "Banckend"
+      }
+    ],
+    "stack": ["Express", "NodeJS", "Mocha e Chai", "REST", "MongoDB"]
+  },
+
+  {
+    "project": "polvo",
+    "name": "Polvo",
+    "desc": "Backend para um sistema de apoio a apredizagem da ESAG-UDESC.",
+    "thumb": "PolvoThumb.png",
+    "fullDesc": "Esse foi meu <b>primeiro projeto concluido</b>, ainda como estagiário, fazia pouco tempo que tinha iniciado minha jornada com o backend. Foi um projeto <b>bem extenso</b>, tive que sair do frontend e <b>assumir o backend sozinho</b> enquanto o resto equipe ficava no frontend.<p>O projeto POLVO se trata de uma plataforma conhecido como AVA, ou seja, Ambiente Virtual de Aprendizagem, com proposta parecida ao Moodle, que é amplamente utilizado em várias universidades. Já existe uma versão antiga do Polvo, rodando para os alunos da ESAG da Universidade Estadual de Santa Catarina. <b>Esse projeto do qual participei se trata da atualização de interface e funcionalidades.</b> O Polvo possuis funcões como: drive; mala direta; gerenciamento de: usuários, entidades, papéis; realização de provas; postagem de trabalhos colaborativos; postagem de material de apoio, entre outras.</p>",
+    "images": [
+      {
+        "src": "polvo/0001.jpg",
+        "desc": "Tela de Login"
+      },
+      {
+        "src": "polvo/0002.jpg",
+        "desc": "Visão de administrador do Sistema - Tela do seu DRIVE"
+      },
+      {
+        "src": "polvo/0003.jpg",
+        "desc": "Visão de administrador do Sistema - Gerenciar Entidades do Sistema"
+      },
+      {
+        "src": "polvo/0004.jpg",
+        "desc": "Visão de administrador do Sistema - Tela de gerenciamento de usuários"
+      },
+      {
+        "src": "polvo/0005.jpg",
+        "desc": "Visão do professor - Tela de Material de Apoio"
+      },
+      {
+        "src": "polvo/0006.jpg",
+        "desc": "Visão do professor - Tela de Trabalho Colaborativo"
+      },
+      {
+        "src": "polvo/0007.jpg",
+        "desc": "Visão do professor - Tela de Avaliações"
+      },
+      {
+        "src": "polvo/0008.jpg",
+        "desc": "Visão do professor - Tela de visualização das avaliações submetidas"
+      },
+      {
+        "src": "polvo/0009.jpg",
+        "desc": "Visão do aluno - Realizando prova"
+      },
+      {
+        "src": "polvo/0010.jpg",
+        "desc": "Visão do aluno - Mala Direta (Mensagens)"
+      },
+      {
+        "src": "polvo/0011.jpg",
+        "desc": "Visão do aluno - Enviando nova mensagem via Mala Direta"
+      }
+    ],
+    "preview": {
+      "link": "https://youtu.be/WI02lbIfatM",
+      "notAvailable": ""
+    },
+    "github": [
+      {
+        "link": "",
+        "notAvailable": "Não disponível",
+        "label": "Banckend"
+      }
+    ],
+    "stack": ["Express", "NodeJS", "Mocha e Chai", "REST", "Socket.io", "MongoDB"]
+  }
+]

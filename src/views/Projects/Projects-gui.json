@@ -1,0 +1,485 @@
+[
+  {
+    "project": "painel",
+    "name": "Painel Blueticket",
+    "desc": "Refatorando telas antigas de uma aplicação",
+    "thumb": "PainelThumb.png",
+    "fullDesc": "A empresa <a href='https://www.blueticket.com.br' target='_blank'>Blueticket</a> possui um painel de gerenciamento para os organizadores de eventos e ele <b>está passando por modificações no layout.</b> Estou trabalhando na <b>refatoração de código e layout de algumas páginas - seguindo os novos protótipos de telas criados pela UX/UI Designer</b>.<p>Para esse trabalho está sendo necessário criar e componentizar novos elementos para serem aproveitados nas novas telas, além de trabalhar com bibliotecas como: ApexChart (gráficos) e Leaflet (mapas).</p> <p><b>** Para ver o antes e o depois das novas telas, arraste o divisor vertical das imagens.</b></p>",
+    "images": [
+      {
+        "src": "painel/001n.png",
+        "src2": "painel/001o.png",
+        "desc": "Atual x Antiga - versão da tela Analytics"
+      },
+      {
+        "src": "painel/002n.png",
+        "desc": "Perfil do público - nova aba da tela Analytics"
+      },
+      {
+        "src": "painel/003n.png",
+        "desc": "Campanhas - nova aba da tela Analytics"
+      },
+      {
+        "src": "painel/004n.png",
+        "src2": "painel/004o.png",
+        "desc": "Atual x Antiga - versão da tela Dashboard"
+      },
+      {
+        "src": "painel/005n.png",
+        "src2": "painel/005o.png",
+        "desc": "Atual x Antiga - versão da tela Detalhes do Evento"
+      },
+      {
+        "src": "painel/006n.png",
+        "src2": "painel/006o.png",
+        "desc": "Atual x Antiga - versão da tela Comunicados - visão geral"
+      },
+      {
+        "src": "painel/007n.png",
+        "src2": "painel/007o.png",
+        "desc": "Atual x Antiga - versão da tela Comunicados - comunicado enviado"
+      }
+    ],
+    "preview": {
+      "link": "",
+      "notAvailable": "Não disponível"
+    },
+    "github": [],
+    "stack": ["vue2", "vuex", "vuetify", "js", "css"]
+  },
+
+  {
+    "project": "verify",
+    "name": "Verify Desktop",
+    "desc": "Validação de ingressos em eventos para a empresa Blueticket.",
+    "thumb": "VerifyThumb.png",
+    "fullDesc": "Consiste em um projeto <b>frontend</b> desenvolvido para a empresa <b>Blueticket.</b> O objetivo desse projeto é facilitar a validação/checagem de ingressos dos participantes de um evento. <b>A aplicação necessita autenticação via email/senha ou QrCode</b>, uma vez logado o funcionário da Blueticket poderá ele mesmo validar os ingressos ou ainda <b>ativar o modo quíosque</b>, o qual poderá ser utilizado em postos de auto atendimento no dia do evento para que qualquer pessoa possa imprimir a própria etiqueta de validação do seu ingresso.<p>O projeto foi idealizado para ser utilizado em <b>browsers que tem suporte ao modo quíosque</b> como é o caso do Google Chrome e Firefox, assim ao verificar um ingresso, a etiqueta de confirmação será automaticamente jogada na fila de impressão da impressora, sem necessitar qualquer ação extra do usuário - encaixando-se perfeitamente a um posto de auto-atendimento. O projeto também conta com um <b>sistema offline</b>, ou seja, caso a conexão no dia do evento caia, será possível continuar autenticando os ingressos e imprimindo-os, e quando a conexão for reestabelecida os dados serão enviados ao servidor.</p>",
+    "images": [
+      {
+        "src": "verify/001.jpg",
+        "desc": "Tela de Login, login pode ser realizado via e-mail e senha ou QrCode"
+      },
+      {
+        "src": "verify/002.jpg",
+        "desc": "Visão para selecionar o Evento a ser realizado"
+      },
+      {
+        "src": "verify/003.jpg",
+        "desc": "Tela de buscar por participantes, utilizado por funcionário Blueticket"
+      },
+      {
+        "src": "verify/004.jpg",
+        "desc": "Tela de buscar por compras, utilizado por funcionário Blueticket"
+      },
+      {
+        "src": "verify/005.jpg",
+        "desc": "Ao validar/liberar um ingresso uma etiqueta será enviada para a impressora"
+      },
+      {
+        "src": "verify/010.jpg",
+        "desc": "Após o login o funcionário poderá liberar o Modo Quíosque, o qual poderá ser utilizado em posto de auto-atendimento"
+      },
+      {
+        "src": "verify/006.jpg",
+        "desc": "Caso a conexão caia o modo offline será habilitado automaticamente"
+      },
+      {
+        "src": "verify/007.jpg",
+        "desc": "As ações realizadas durante o modo offline são salvas em cache e quando a conexão for reestabelecida serão enviadas ao servidor"
+      },
+      {
+        "src": "verify/008.jpg",
+        "desc": "Login via QrCode"
+      },
+      {
+        "src": "verify/009.jpg",
+        "desc": "A interface liberada após login via QrCode permite usar o leitor de QrCode para ler etiquetas de ingressos."
+      }
+    ],
+    "preview": {
+      "link": "",
+      "notAvailable": "Não disponível"
+    },
+    "github": [],
+    "stack": ["vue3", "vuex", "quasar", "js", "css/less"]
+  },
+
+  {
+    "project": "fcee",
+    "name": "FCEE",
+    "desc": "Frontend para um sistema de solicitações dos funcionários.",
+    "thumb": "FceeThumb.png",
+    "fullDesc": "Realizei o <b>frontend</b> desse projeto solicitado pela <b>Fundação Catarinense de Educação Especial.</b> O Layout foi idealizado por mim, conforme a comunicação visual já existente dentro das outras plataformas/sites da FCEE. A aplicação consiste em um sistema de solicitação de serviços junto a administração e setores dentro da instituição. <p>O objetivo desse sistema é informatizar/agilizar os processos de solicitações dentro da instituição, tendo como diferencial a geração de relatórios sobre as solicitações realizadas. O sistema conta com 9 papéis + administrador global - cada um com suas peculiaridades na forma de visualizar e utilizar a plataforma.</p>",
+    "images": [
+      {
+        "src": "fcee/0001.jpg",
+        "desc": "Tela de Login"
+      },
+      {
+        "src": "fcee/0002.jpg",
+        "desc": "Visão de administrador do Sistema"
+      },
+      {
+        "src": "fcee/0003.jpg",
+        "desc": "Visão de administrador do Sistema - Tela de gerenciamento de usuários"
+      },
+      {
+        "src": "fcee/0004.jpg",
+        "desc": "Visão de administrador do Sistema - Tela de importar usuários"
+      },
+      {
+        "src": "fcee/0005.jpg",
+        "desc": "Visão de administrador do Sistema - Tela de Relatórios de Solicitações"
+      },
+      {
+        "src": "fcee/0006.jpg",
+        "desc": "Visão de funcionário comum - 9 tipos de solicitações possíveis"
+      },
+      {
+        "src": "fcee/0007.jpg",
+        "desc": "Visão de funcionário comum - Tela Minhas Solicitações"
+      },
+      {
+        "src": "fcee/0008.jpg",
+        "desc": "Visão de funcionário comum - Tela Solicitação de Material de Consumo"
+      },
+      {
+        "src": "fcee/0009.jpg",
+        "desc": "Visão de responsável pelos Materiais de Consumo - Solicitações Pendentes"
+      },
+      {
+        "src": "fcee/0010.jpg",
+        "desc": "Visão de responsável pelos Materiais de Consumo - Gerenciar Materiais Disponíveis"
+      }
+    ],
+    "preview": {
+      "link": "https://youtu.be/EjN8liNvCjI",
+      "notAvailable": ""
+    },
+    "github": [
+      {
+        "link": "",
+        "notAvailable": "Não disponível",
+        "label": "Frontend"
+      }
+    ],
+    "stack": ["vue2", "vuetify", "js", "css"]
+  },
+
+  {
+    "project": "pieta",
+    "name": "Pieta.tech",
+    "desc": "Frontend para um CRM de venda de painéis de energia solar.",
+    "thumb": "PietaTech.png",
+    "fullDesc": "Esse projeto foi <b>meu primeiro freela</b>, quando tinha pouco mais de 6 meses de estagiário frontend e VUEJS. Foi um grande desafio, pois eu penava pra fazer qualquer coisa! Fui o responsável por criar o layout e toda estrutura frontend da app, trabalhei nesse projeto durante três meses, entretanto, não cheguei a concluir todo o projeto.<p>O projeto em si se tratava de um <b>CRM (Customer Relationship Management)</b> exclusivo da Pieta.tech, no qual ela fornecia planos de assinatura para Empresas do ramo de energia solar. Essa plataforma contava com um sistema exclusivo de venda, gerenciamento, leads e acompanhamento de produtos relacionados a painéis de energia solar para empresas/revendedores desse ramo.</p>",
+    "images": [
+      {
+        "src": "pieta/001.jpg",
+        "desc": "Tela de Login"
+      },
+      {
+        "src": "pieta/002.jpg",
+        "desc": "Tela de Cadastro"
+      },
+      {
+        "src": "pieta/003.jpg",
+        "desc": "Tela de Termos de Serviço"
+      },
+      {
+        "src": "pieta/004.jpg",
+        "desc": "Tela de escolha de planos"
+      },
+      {
+        "src": "pieta/005.jpg",
+        "desc": "Tela de pagamento com cartão de crédito"
+      },
+      {
+        "src": "pieta/006.jpg",
+        "desc": "Visão do administrador geral da plataforma"
+      },
+      {
+        "src": "pieta/007.jpg",
+        "desc": "Visão do administrador geral da plataforma - Planos de pagamento"
+      },
+      {
+        "src": "pieta/008.jpg",
+        "desc": "Visão do administrador geral da plataforma - Adicionar Gerente de Empresas"
+      },
+      {
+        "src": "pieta/009.jpg",
+        "desc": "Visão do administrador geral da plataforma - Agenda"
+      },
+      {
+        "src": "pieta/010.jpg",
+        "desc": "Visão do administrador geral da plataforma - Negociações inspirado Trello"
+      },
+      {
+        "src": "pieta/011.jpg",
+        "desc": "Visão de gerente de uma empresa que assina o CRM Pieta.tech"
+      }
+    ],
+    "preview": {
+      "link": "",
+      "notAvailable": "Não disponível"
+    },
+    "github": [
+      {
+        "link": "",
+        "notAvailable": "Não disponível",
+        "label": "Frontend"
+      }
+    ],
+    "stack": ["vue2", "vuetify"]
+  },
+
+  {
+    "project": "agenda",
+    "name": "Agenda App",
+    "thumb": "AgendaThumb.png",
+    "desc": "Frontend + Backend para uma agenda de contatos.",
+    "fullDesc": "Nesse projeto <b>ataquei de fullstack</b> e criei um backend + frontend para uma aplicação de contatos/agenda, onde é possível realizar o registro de novos usuários, os usuários podem gerenciar seus contatos, realizar upload do seu avatar e pedir recuperação de senha por email.<p>Para <b>desenvolver o backend</b> utilizei a stack: Express, JWT Token (para autenticação), BCript (criptografia), NodeMailer (envio de email), Speakeasy (autenticação dois fatores), JOI (verificação de dados enviados), Multer (upload de arquivos) e Mongoose. Por fim o backend foi colocado para rodar em um servidor da AWS, configurado via Docker.</p><p>Para <b>desenvolver o frontend</b> utilizei VueJS 3, utilizando Composition API. Todo o layout da aplicação foi desenvolvido por mim, optei por não utilizar nenhuma biblioteca externa de interface/css, ou seja, tudo foi feito na mão.</p>",
+    "images": [
+      {
+        "src": "agenda/0001.jpg",
+        "desc": "Tela de Login"
+      },
+      {
+        "src": "agenda/0002.jpg",
+        "desc": "Tela de Cadastro"
+      },
+      {
+        "src": "agenda/0003.jpg",
+        "desc": "Tela de esqueceu a senha"
+      },
+      {
+        "src": "agenda/0004.jpg",
+        "desc": "Email recebido para resetar a senha"
+      },
+      {
+        "src": "agenda/0005.jpg",
+        "desc": "Na tela principal, o dog Caramelo pode escolher entre 4 cores de tema"
+      },
+      {
+        "src": "agenda/0006.jpg",
+        "desc": "Caramelo pode gerenciar os seus contatos, como por exemplo: editar"
+      },
+      {
+        "src": "agenda/0007.jpg",
+        "desc": "Caramelo pode fazer a limpa e começar tudo de novo!"
+      },
+      {
+        "src": "agenda/0008.jpg",
+        "desc": "Caramelo pode alterar a sua foto quando quiser!"
+      },
+      {
+        "src": "agenda/0009.jpg",
+        "desc": "E quando os contatos forem muito, ele pode filtrá-los pela busca!"
+      }
+    ],
+    "preview": {
+      "link": "https://agenda-app-dev.netlify.app/",
+      "notAvailable": ""
+    },
+    "github": [
+      {
+        "link": "https://github.com/guiialexandrino/agenda-frontend",
+        "notAvailable": "",
+        "label": "Frontend"
+      },
+      {
+        "link": "https://github.com/guiialexandrino/agenda-backend",
+        "notAvailable": "",
+        "label": "Backend"
+      }
+    ],
+    "stack": ["vue3", "js", "nodejs", "html", "css/less"]
+  },
+
+  {
+    "project": "polvo",
+    "name": "Polvo",
+    "desc": "Frontend para um sistema de alunos e professores da ESAG.",
+    "thumb": "PolvoThumb.png",
+    "fullDesc": "Esse foi meu <b>primeiro projeto executado</b>, eu era estagiário e fazia alguns meses que tinha começado a aprender VueJS. Foi um projeto <b>bem extenso</b>, no começo a equipe era composta por vários frontends e cada era responsável por uma parte. Durante a pandemia acabou que os outros frontends da equipe sairam e só eu continuei, então <b>tive que tomar conta de todo projeto</b>. Resultado refiz toda a parte feita pelos outro integrante deixando do meu jeito e padronizando várias coisas que estavam diferentes.<p>O projeto POLVO se trata de uma plataforma conhecido como AVA, ou seja, Ambiente Virtual de Aprendizagem, com proposta parecida ao Moodle, que é amplamente utilizado em várias universidades. Já existe uma versão antiga do Polvo, rodando para os alunos da ESAG da Universidade Estadual de Santa Catarina. <b>Esse projeto do qual participei se trata da atualização de interface e funcionalidades.</b> O Polvo possuis funcões como: drive; mala direta; gerenciamento de: usuários, entidades, papéis; realização de provas; postagem de trabalhos colaborativos; postagem de material de apoio, entre outras.</p>",
+    "images": [
+      {
+        "src": "polvo/0001.jpg",
+        "desc": "Tela de Login"
+      },
+      {
+        "src": "polvo/0002.jpg",
+        "desc": "Visão de administrador do Sistema - Tela do seu DRIVE"
+      },
+      {
+        "src": "polvo/0003.jpg",
+        "desc": "Visão de administrador do Sistema - Gerenciar Entidades do Sistema"
+      },
+      {
+        "src": "polvo/0004.jpg",
+        "desc": "Visão de administrador do Sistema - Tela de gerenciamento de usuários"
+      },
+      {
+        "src": "polvo/0005.jpg",
+        "desc": "Visão do professor - Tela de Material de Apoio"
+      },
+      {
+        "src": "polvo/0006.jpg",
+        "desc": "Visão do professor - Tela de Trabalho Colaborativo"
+      },
+      {
+        "src": "polvo/0007.jpg",
+        "desc": "Visão do professor - Tela de Avaliações"
+      },
+      {
+        "src": "polvo/0008.jpg",
+        "desc": "Visão do professor - Tela de visualização das avaliações submetidas"
+      },
+      {
+        "src": "polvo/0009.jpg",
+        "desc": "Visão do aluno - Realizando prova"
+      },
+      {
+        "src": "polvo/0010.jpg",
+        "desc": "Visão do aluno - Mala Direta (Mensagens)"
+      },
+      {
+        "src": "polvo/0011.jpg",
+        "desc": "Visão do aluno - Enviando nova mensagem via Mala Direta"
+      }
+    ],
+    "preview": {
+      "link": "https://youtu.be/WI02lbIfatM",
+      "notAvailable": ""
+    },
+    "github": [
+      {
+        "link": "",
+        "notAvailable": "Não disponível",
+        "label": "Frontend"
+      }
+    ],
+    "stack": ["vue2", "vuetify"]
+  },
+
+  {
+    "project": "rickandmorty",
+    "name": "Rick and Morty - Characters",
+    "thumb": "RickAndMortyThumb.png",
+    "desc": "Todos os personagens de Rick and Morty :)",
+    "fullDesc": "Esse projeto foi construindo consumindo a <a href='https://rickandmortyapi.com/' target='_blank'>Rick and Morty API</a>, ele consiste em em <b>exibir a informação de todos personagens</b> que já apareceram no desenho ao longo das 6 temporadas. É possível realizar busca pelo nome, buscar por letra que começa o nome do personagem, além de poder navegar entre as páginas e ver o avatar de cada personagem. O projeto foi construindo com a <b>utilização do Quasar - uma biblioteca UI disponível para Vue.js</b>, além de ter sido desenvolvido em <b>Typescript e utilizando a Composition API.</b>",
+    "images": [
+      {
+        "src": "rickandmorty/002.jpg",
+        "desc": "Tela principal da aplicação"
+      },
+      {
+        "src": "rickandmorty/003.jpg",
+        "desc": "Tela principal mostra 15 personagens por página"
+      },
+      {
+        "src": "rickandmorty/004.jpg",
+        "desc": "É possível fazer a busca pelo nome dos personagens"
+      },
+      {
+        "src": "rickandmorty/005.jpg",
+        "desc": "Também é possível filtrar por letra os personagens"
+      },
+      {
+        "src": "rickandmorty/001.jpg",
+        "desc": "Exibe os detalhes do personagem selecionado!"
+      }
+    ],
+    "preview": {
+      "link": "https://alexandrino-rick-and-morty.netlify.app",
+      "notAvailable": ""
+    },
+    "github": [
+      {
+        "link": "https://github.com/guiialexandrino/rickandmorty",
+        "notAvailable": "",
+        "label": "Frontend"
+      }
+    ],
+    "stack": ["vue3", "typescript", "quasar", "api graphQL", "css/less"]
+  },
+
+  {
+    "project": "pokedex",
+    "name": "Pokédex",
+    "thumb": "PokedexThumb.png",
+    "desc": "Pokédex dos 151 pokémons + VsMode - compare os pokémons",
+    "fullDesc": "Esse projeto foi construindo consumindo a <a href='https://pokeapi.co/' target='_blank'>POKE API</a>, ele consiste em uma pokédex para os 151 pokémons.<br/>Nesse projeto é possível observar as características e os status de cada pokémon, além de trazer uma funcionalidade diferente: a <b>VsMode</b>, no qual, é possível comparar os status de dois pokémons e observar qual pokémon foi mais vitorioso na disputa de status. O projeto foi construindo sem a utilização de nenhum framework, ou seja, <b>HTML + JavaScript + CSS  puro.</b>",
+    "images": [
+      {
+        "src": "pokedex/1.png",
+        "desc": "Ao passar o mouse <b>sobre os cards</b> adquirem a cor do elemento primário do pokémon."
+      },
+      {
+        "src": "pokedex/3.png",
+        "desc": "Ao clicar no card será exibido as informações sobre o pokémon."
+      },
+      {
+        "src": "pokedex/4.png",
+        "desc": "Exibindo informações sobre o Aerodacytl."
+      },
+      {
+        "src": "pokedex/2.png",
+        "desc": "É possível adicionar um pokémon para comparar com outro clicando no ícone <b>VS</b>."
+      },
+      {
+        "src": "pokedex/5.png",
+        "desc": "VsMode entre <b>Aerodactyl x Snorlax</b>"
+      }
+    ],
+    "preview": {
+      "link": "https://apokedex-v2.netlify.app",
+      "notAvailable": ""
+    },
+    "github": [
+      {
+        "link": "https://github.com/guiialexandrino/pokedexv2",
+        "notAvailable": "",
+        "label": "Frontend"
+      }
+    ],
+    "stack": ["html", "js", "css"]
+  },
+
+  {
+    "project": "8puzzle",
+    "name": "8-Puzzle",
+    "desc": "Um estudo sobre IA com o uso de heurísticas.",
+    "thumb": "8puzzleThumb.png",
+    "fullDesc": "<p>Esse projeto foi realizado durante a faculdade de Sistemas de Informação na disciplina: Sistemas Inteligentes. O intuito dessa aplicação é <b>encontrar a solução para o desafio do jogo conhecido como 8puzzle.</b> Nesse jogo dado um desafio, devemos ir mudando as casas de lugares afim de encontrar a solução.</p><p>Um dos temas abordados durante essa disciplina de faculdade era a Inteligência Artificial. Para esse trabalho deveria ser criado um programa capaz de encontrar os movimentos necessários para resolver o desafio de um 8puzzle. <b>O enunciado pedia que fosse implementado <b>Métodos de Busca</b> utilizando heurísticas, para ajudar o nosso programa a saber qual decisão tomar e por fim encontrar a solução.</b></p><p>Tendo em mente isso desenvolvi essa aplicação utilizando VueJs 2 + Vuetify, toda lógica está direto no frontend mesmo, já que era algo experimental sem necessidade de um backend. <b>Vale salientar que a aplicação tem limitações!</b> Desafios muito complexos demoram muito para ser encontrados e tem que utilizar a heurística <b>melhor A*</b>, pois é a melhor heurística implementada, portanto a que entrega resultados mais rápidos.</p><p>Desafios de até 31 movimentos + Melhor A* conseguem ser resolvidos em alguns minutos! Se o desafio tiver mais movimentos, irá demorar muito para ser encontrado.. :(</p>Relatório explicando o código disponível <a href='https://drive.google.com/file/d/1r_noIobMRFedaCW0IMsS9bqAuLD8rLQV/view?usp=sharing' target='_blank'>aqui</a>.",
+    "images": [
+      {
+        "src": "8puzzle/1.jpg",
+        "desc": "É possível escolher <b>entre 3 Heurísticas:</b> Custo Uniforme, A* Heurística Simples e Melhor A*"
+      },
+      {
+        "src": "8puzzle/2.jpg",
+        "desc": "A aplicação nos entrega a resolução passo-a-passo do desafio."
+      },
+      {
+        "src": "8puzzle/3.jpg",
+        "desc": "É possível fazer desafios personalizados."
+      },
+      {
+        "src": "8puzzle/4.jpg",
+        "desc": "Por exigir muitos cálculos e iterações, dependendo do desafio é necessário aguardar um tempinho."
+      }
+    ],
+    "preview": {
+      "link": "https://8puzzle-app.netlify.app",
+      "notAvailable": ""
+    },
+    "github": [
+      {
+        "link": "https://github.com/guiialexandrino/8puzzle",
+        "notAvailable": "",
+        "label": "Frontend"
+      }
+    ],
+    "stack": ["vue2", "vuetify"]
+  }
+]
