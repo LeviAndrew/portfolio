@@ -187,23 +187,23 @@
     "fullDesc": "Este projeto consistiu na implementação de um <b>Sistema Supervisório</b> para a <b>subestação de Gavião Real</b>, integrando-se às linhas de transmissão de alta tensão da <b>ENGIE</b>. Desenvolvido como uma extensão das soluções já existentes, o sistema utiliza o protocolo de comunicação <b>DNP3</b> e foi construído na plataforma Elipse Power. Com foco em <b>monitoramento remoto e controle operacional</b>, o projeto passou por fases de desenvolvimento, testes de fábrica e está agora prestes a iniciar os <b>testes de aceitação de campo</b> (TAC), visando energizar a subestação no início de abril de 2024. O sistema oferece eficiência operacional, integração padronizada com outros sistemas da ENGIE, confiabilidade na comunicação e segurança nas operações..",
     "images": [
       {
-        "src": "gaviaoreal/001.jpg",
+        "src": "gaviaoreal/001.png",
         "desc": "Tela de Login"
       },
       {
-        "src": "gaviaoreal/002.jpg",
+        "src": "gaviaoreal/002.png",
         "desc": "Visão Geral - Com Subestação da Gavião Real (GR) ainda deslocada (será ajustado no TAC)"
       },
       {
-        "src": "gaviaoreal/003.jpg",
+        "src": "gaviaoreal/003.png",
         "desc": "Visão Geral dos equipamentos da subestação"
       },
       {
-        "src": "gaviaoreal/004.jpg",
+        "src": "gaviaoreal/004.png",
         "desc": "Popups de monitoração e operação"
       },
       {
-        "src": "gaviaoreal/005.jpg",
+        "src": "gaviaoreal/005.png",
         "desc": "Popup de comando e pré-condições de comando de um disjutor"
       }
     ],
