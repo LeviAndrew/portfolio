@@ -62,6 +62,7 @@
               <li>Studio 5000</li>
               <li>OPC</li>
               <li>Modbus</li>
+              <li>MQTT</li>
               <li>DNP3</li>
               <li>SAGE</li>
               <li>IEC 61850</li>

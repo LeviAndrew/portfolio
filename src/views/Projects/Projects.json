@@ -1,7 +1,7 @@
 [
   {
     "project": "fcee",
-    "name": "FCEE",
+    "name": "FCEE - Web",
     "desc": "Backend para um sistema de solicitações processos.",
     "thumb": "FceeThumb.png",
     "fullDesc": "Desenvolvi o <b>backend</b> desse projeto solicitado pela <b>Fundação Catarinense de Educação Especial.</b> O Layout foi idealizado a comunicação visual já existente dentro das outras plataformas/sites da FCEE, e o frontend foi desenvolvido por um parceiro. A aplicação consiste em um sistema de solicitação de serviços junto a administração e setores dentro da instituição. <p>O objetivo desse sistema é informatizar/agilizar os processos de solicitações dentro da instituição, tendo como diferencial a geração de relatórios sobre as solicitações realizadas. O sistema conta com 9 papéis + administrador global - cada um com suas peculiaridades na forma de visualizar e utilizar a plataforma.</p>",
@@ -60,13 +60,12 @@
     ],
     "stack": ["Express", "NodeJS", "Mocha e Chai", "REST", "MongoDB"]
   },
-
   {
     "project": "polvo",
-    "name": "Polvo",
+    "name": "Polvo - Web",
     "desc": "Backend para um sistema de apoio a apredizagem da ESAG-UDESC.",
     "thumb": "PolvoThumb.png",
-    "fullDesc": "Esse foi meu <b>primeiro projeto concluido</b>, ainda como estagiário, fazia pouco tempo que tinha iniciado minha jornada com o backend. Foi um projeto <b>bem extenso</b>, tive que sair do frontend e <b>assumir o backend sozinho</b> enquanto o resto equipe ficava no frontend.<p>O projeto POLVO se trata de uma plataforma conhecido como AVA, ou seja, Ambiente Virtual de Aprendizagem, com proposta parecida ao Moodle, que é amplamente utilizado em várias universidades. Já existe uma versão antiga do Polvo, rodando para os alunos da ESAG da Universidade Estadual de Santa Catarina. <b>Esse projeto do qual participei se trata da atualização de interface e funcionalidades.</b> O Polvo possuis funcões como: drive; mala direta; gerenciamento de: usuários, entidades, papéis; realização de provas; postagem de trabalhos colaborativos; postagem de material de apoio, entre outras.</p>",
+    "fullDesc": "Esse foi meu <b>primeiro projeto web concluido</b>, ainda como estagiário, fazia pouco tempo que tinha iniciado minha jornada com o backend. Foi um projeto <b>bem extenso</b>, tive que sair do frontend e <b>assumir o backend sozinho</b> enquanto o resto equipe ficava no frontend.<p>O projeto POLVO se trata de uma plataforma conhecido como AVA, ou seja, Ambiente Virtual de Aprendizagem, com proposta parecida ao Moodle, que é amplamente utilizado em várias universidades. Já existe uma versão antiga do Polvo, rodando para os alunos da ESAG da Universidade Estadual de Santa Catarina. <b>Esse projeto do qual participei se trata da atualização de interface e funcionalidades.</b> O Polvo possuis funcões como: drive; mala direta; gerenciamento de: usuários, entidades, papéis; realização de provas; postagem de trabalhos colaborativos; postagem de material de apoio, entre outras.</p>",
     "images": [
       {
         "src": "polvo/0001.jpg",
@@ -125,5 +124,58 @@
       }
     ],
     "stack": ["Express", "NodeJS", "Mocha e Chai", "REST", "Socket.io", "MongoDB"]
+  },
+  {
+    "project": "televale",
+    "name": "Televale - SCADA",
+    "desc": "Sistema de Supervisório para Monitoração e Notificação de Emergência em Barragens.",
+    "thumb": "TelevaleThumb.png",
+    "fullDesc": "O Sistema de Alerta Sonoro com sirenes foi desenvolvido com o objetivo de proteger e salvar vidas através da comunicação em massa da população potencialmente afetada na área de rompimento de uma barragem, por meio de sirenes de longo alcance ou desempenho. Estes conjuntos sonoros podem ser utilizados em usinas hidrelétricas, mineradoras, e também em áreas de enchentes. A partir disso, desenvolvi um <b>Sistema de Supervisório</b> para Monitoração e Notificação de Emergência em Barragens utilizando o Elipse E3.",
+    "images": [
+      {
+        "src": "televale/001.jpg",
+        "desc": "Tela de Login"
+      },
+      {
+        "src": "televale/002.jpg",
+        "desc": "Visão Geral - Usuário Adm Televale"
+      },
+      {
+        "src": "televale/003.jpg",
+        "desc": "Visão Geral - Usuário Operador Cliente"
+      },
+      {
+        "src": "televale/004.jpg",
+        "desc": "Visão Geral de uma USINA"
+      },
+      {
+        "src": "televale/005.jpg",
+        "desc": "Visão Geral de outra USINA + popups de informações específicas dos equipamentos"
+      },
+      {
+        "src": "televale/006.jpg",
+        "desc": "Tela Web de Mapa de uma Usina com Zona inundável e informações de equipamentos e população"
+      },
+      {
+        "src": "televale/007.jpg",
+        "desc": "Telde de relatório de alarmes - Usuário Adm"
+      },
+      {
+        "src": "televale/008.jpg",
+        "desc": "Telde de relatório de eventos - Usuário Adm"
+      }
+    ],
+    "preview": {
+      "link": "",
+      "notAvailable": "Não disponível"
+    },
+    "github": [
+      {
+        "link": "",
+        "notAvailable": "Não disponível",
+        "label": ""
+      }
+    ],
+    "stack": ["E3 Studio", "E3 Server", "E3 Viewer", "MQTT", "AWS - Lightsail", "AWS - EC2", "PostgreSQL", "Node.js", "HTML"]
   }
 ]
