@@ -1,4 +1,58 @@
 [
+  
+  {
+    "project": "televale",
+    "name": "Televale - SCADA",
+    "desc": "Sistema de Supervisório para Monitoração e Notificação de Emergência em Barragens.",
+    "thumb": "TelevaleThumb.png",
+    "fullDesc": "O Sistema de Alerta Sonoro com sirenes foi desenvolvido com o objetivo de proteger e salvar vidas através da comunicação em massa da população potencialmente afetada na área de rompimento de uma barragem, por meio de sirenes de longo alcance ou desempenho. Estes conjuntos sonoros podem ser utilizados em usinas hidrelétricas, mineradoras, e também em áreas de enchentes. A partir disso, desenvolvi um <b>Sistema de Supervisório</b> para Monitoração e Notificação de Emergência em Barragens utilizando o Elipse E3.",
+    "images": [
+      {
+        "src": "televale/001.jpg",
+        "desc": "Tela de Login"
+      },
+      {
+        "src": "televale/002.jpg",
+        "desc": "Visão Geral - Usuário Adm Televale"
+      },
+      {
+        "src": "televale/003.jpg",
+        "desc": "Visão Geral - Usuário Operador Cliente"
+      },
+      {
+        "src": "televale/004.jpg",
+        "desc": "Visão Geral de uma USINA"
+      },
+      {
+        "src": "televale/005.jpg",
+        "desc": "Visão Geral de outra USINA + popups de informações específicas dos equipamentos"
+      },
+      {
+        "src": "televale/006.jpg",
+        "desc": "Tela Web de Mapa de uma Usina com Zona inundável e informações de equipamentos e população"
+      },
+      {
+        "src": "televale/007.jpg",
+        "desc": "Telde de relatório de alarmes - Usuário Adm"
+      },
+      {
+        "src": "televale/008.jpg",
+        "desc": "Telde de relatório de eventos - Usuário Adm"
+      }
+    ],
+    "preview": {
+      "link": "",
+      "notAvailable": "Não disponível"
+    },
+    "github": [
+      {
+        "link": "",
+        "notAvailable": "Não disponível",
+        "label": ""
+      }
+    ],
+    "stack": ["E3 Studio", "E3 Server", "E3 Viewer", "MQTT", "AWS - Lightsail", "AWS - EC2", "PostgreSQL", "Node.js", "HTML"]
+  },
   {
     "project": "fcee",
     "name": "FCEE - Web",
@@ -126,43 +180,31 @@
     "stack": ["Express", "NodeJS", "Mocha e Chai", "REST", "Socket.io", "MongoDB"]
   },
   {
-    "project": "televale",
-    "name": "Televale - SCADA",
-    "desc": "Sistema de Supervisório para Monitoração e Notificação de Emergência em Barragens.",
-    "thumb": "TelevaleThumb.png",
-    "fullDesc": "O Sistema de Alerta Sonoro com sirenes foi desenvolvido com o objetivo de proteger e salvar vidas através da comunicação em massa da população potencialmente afetada na área de rompimento de uma barragem, por meio de sirenes de longo alcance ou desempenho. Estes conjuntos sonoros podem ser utilizados em usinas hidrelétricas, mineradoras, e também em áreas de enchentes. A partir disso, desenvolvi um <b>Sistema de Supervisório</b> para Monitoração e Notificação de Emergência em Barragens utilizando o Elipse E3.",
+    "project": "gaviaoreal",
+    "name": "Gavião Real - SCADA",
+    "desc": "Sistema Supervisório Integrado para Subestação de Gavião Real: Eficiência e Controle Avançados na Rede de Transmissão ENGIE.",
+    "thumb": "GaviaoRealThumb.jpg",
+    "fullDesc": "Este projeto consistiu na implementação de um <b>Sistema Supervisório</b> para a <b>subestação de Gavião Real</b>, integrando-se às linhas de transmissão de alta tensão da <b>ENGIE</b>. Desenvolvido como uma extensão das soluções já existentes, o sistema utiliza o protocolo de comunicação <b>DNP3</b> e foi construído na plataforma Elipse Power. Com foco em <b>monitoramento remoto e controle operacional</b>, o projeto passou por fases de desenvolvimento, testes de fábrica e está agora prestes a iniciar os <b>testes de aceitação de campo</b> (TAC), visando energizar a subestação no início de abril de 2024. O sistema oferece eficiência operacional, integração padronizada com outros sistemas da ENGIE, confiabilidade na comunicação e segurança nas operações..",
     "images": [
       {
-        "src": "televale/001.jpg",
+        "src": "gaviaoreal/001.jpg",
         "desc": "Tela de Login"
       },
       {
-        "src": "televale/002.jpg",
-        "desc": "Visão Geral - Usuário Adm Televale"
+        "src": "gaviaoreal/002.jpg",
+        "desc": "Visão Geral - Com Subestação da Gavião Real (GR) ainda deslocada (será ajustado no TAC)"
       },
       {
-        "src": "televale/003.jpg",
-        "desc": "Visão Geral - Usuário Operador Cliente"
+        "src": "gaviaoreal/003.jpg",
+        "desc": "Visão Geral dos equipamentos da subestação"
       },
       {
-        "src": "televale/004.jpg",
-        "desc": "Visão Geral de uma USINA"
+        "src": "gaviaoreal/004.jpg",
+        "desc": "Popups de monitoração e operação"
       },
       {
-        "src": "televale/005.jpg",
-        "desc": "Visão Geral de outra USINA + popups de informações específicas dos equipamentos"
-      },
-      {
-        "src": "televale/006.jpg",
-        "desc": "Tela Web de Mapa de uma Usina com Zona inundável e informações de equipamentos e população"
-      },
-      {
-        "src": "televale/007.jpg",
-        "desc": "Telde de relatório de alarmes - Usuário Adm"
-      },
-      {
-        "src": "televale/008.jpg",
-        "desc": "Telde de relatório de eventos - Usuário Adm"
+        "src": "gaviaoreal/005.jpg",
+        "desc": "Popup de comando e pré-condições de comando de um disjutor"
       }
     ],
     "preview": {
@@ -176,6 +218,6 @@
         "label": ""
       }
     ],
-    "stack": ["E3 Studio", "E3 Server", "E3 Viewer", "MQTT", "AWS - Lightsail", "AWS - EC2", "PostgreSQL", "Node.js", "HTML"]
+    "stack": ["Elipse Power", "DNP3", "AVR", "SPS", "MySQL"]
   }
 ]
